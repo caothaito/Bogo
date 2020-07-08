@@ -1,0 +1,184 @@
+@media all and (min-width: 1280px){
+
+}
+
+
+
+@media all and (max-width:1199px){
+    .resultRight{
+        height: 300px;
+    }
+    .headerHold{
+        width:660px;
+    }
+    .search-bar {
+        width: 82%;
+    }
+    .headerRight {
+        margin-top: -98px;
+    }
+
+    .contect .contectList li {
+        font-family: Poppins;
+        font-size: 11px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.09;
+        letter-spacing: 1.1px;
+        text-align: center;
+        list-style: none;
+        display: inline-block;
+        padding: 24px 2px 31px;
+    }
+
+    .contect .contectList .faq {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 1067px){
+    .header .tabsContainer{
+        margin-left: -90px;
+    }
+}
+
+@media all and (max-width:1024px){
+    .headerHold {
+        width: 635px;
+        display: inline-block;
+    }
+}
+
+@media all and (max-width: 998px){
+    .header .tabsContainer {
+
+        margin-left: -126px;
+    }
+}
+
+
+@media all and (max-width: 991px){
+    .headerHold{
+        margin-left: 0;
+    }
+    .resultRight{
+        display: none;
+    }
+    .search-bar {
+        margin-top: 20px;
+        position: relative;
+        width: 80%;
+    }
+    .header .tabsContainer {
+        margin-left: auto;
+        width: 552px;
+        overflow-x: scroll;
+        flex: 0;
+        position: absolute;
+    }
+    .tabsContainer .tabList{
+        width: 718px;
+    }
+
+    .contentLeft{
+        width: 440px;
+    }
+    .footer{
+        height:150px
+    }
+    .headerRight {
+        margin-top: -38px;
+    }
+    .footer .boxFooter{
+        margin-left: 50px;
+    }
+    .contect .contectList li{
+        margin-left: 24px;
+    }
+}
+
+
+@media all and (max-width: 922px){
+    .header .tabsContainer{
+        margin-left: -38px;
+    }
+}
+
+
+@media all and (max-width: 905px){
+    .headerRight{
+        display: none;
+    }
+}
+
+@media all and (max-width: 781px){
+    .header .tabsContainer{
+        margin-left: -106px;
+    }
+}
+
+@media all and (max-width: 767px){
+    .search-bar {
+        margin-top: 20px;
+        position: relative;
+        width: 91%;
+    }
+
+    .tabsContainer .tabList {
+        width: 670px;
+        overflow-x: scroll;
+    }
+    .header .tabsContainer {
+        margin-top: 12px;
+        overflow-x: scroll;
+        width: 458  px;
+    }
+    .headerRight {
+    display: none;
+    }
+
+    .contect .contectList li {
+        margin-left: 6px;
+    }
+
+
+    .contectList {
+        margin-left: -29px
+    }
+
+
+
+    .headerHold {
+
+        margin-left: 0;
+        width: 638px;
+
+    }
+    .footer .boxFooter {
+         margin-left: 0;
+    }
+}
+
+@media all and (max-width: 600px){
+    .search-bar {
+        width: 90%;
+    }
+    .header .tabsContainer{
+        margin-left: -112px;
+    }
+}
+
+
+
+@media all and (max-width: 583px){
+    .header .tabsContainer {
+        width: 435px;
+    }
+    .news .content a {
+        width: 480px;
+    }
+    .footer{
+        padding: 0;
+    }
+}

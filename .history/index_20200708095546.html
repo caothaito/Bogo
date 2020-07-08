@@ -18,7 +18,6 @@
     <script src="owlcarousel/owl.carousel.min.js"></script>
 <!--    =============================================-->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/media.css">
 </head>
 <body>
     <header>
@@ -30,8 +29,6 @@
                 </a>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
         <div class="headerHold">
             <div class="search-bar">
                 <input type="text">
@@ -86,8 +83,7 @@
                             </div>
                         </li>
                     </ul>
-            </div>
-        </div>
+
             </div>
         </div>
         <div class="headerRight">
@@ -103,10 +99,10 @@
         </div>
     </div>
 </header>
-    <section >
+    <section>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-lg-7 col-sm-12 ">
+            <div class="col-md-7 col-sm-12 ">
                 <div class="contentLeft">
                 <div class="tools">
                     <label class="switch col-6">
@@ -380,7 +376,7 @@
                 </div>
 
              </div>
-            <div class="col-lg-5 col-xs-12">
+            <div class="col-md-5">
                 <div class="resultRight">
                     <div class="result">
                         <span>Xem Kết Quả Cho:</span>
@@ -410,7 +406,6 @@
 
                 </div>
             </div>
-        </div>
             <div class="col-md-7">
             <div class="web-Results">
                 <div class="about-left">
@@ -444,6 +439,7 @@
             </nav>
             </div>
         </div>
+    </div>
     </section>
     <footer>
         <div class="footer">
@@ -460,32 +456,31 @@
                     <img src="./assets/images/footer/secret-file.png" alt="">
                     <span class="text">No Tracking</span>
                 </div>
-                <div class="contect">
-                    <ul class="contectList">
-                        <li>
-                            <a href="#">BLOG</a>
-                        </li>
-                        <li>
-                            <a href="#">ABOUT US</a>
-                        </li>
-                        <li>
-                            <a href="#">CONTACT</a>
-                        </li>
-                        <li class="faq">
-                            <a href="#">FAQ</a>
-                        </li>
-
-                        <li class="part-6">
-                            <a href="#">PRIVACY POLICY</a>
-                        </li>
-
-                        <li class="part-6">
-                            <a href="#">TERMS OF SERICE</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
+            <div class="contect">
+                <ul class="contectList">
+                    <li>
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="#">COTECT</a>
+                    </li>
+                    <li class="faq">
+                        <a href="#">FAQ</a>
+                    </li>
 
+                    <li class="part-6">
+                        <a href="#">PRIVACY POLICY</a>
+                    </li>
+
+                    <li class="part-6">
+                        <a href="#">TERMS OF SERICE</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 <script>
@@ -499,19 +494,17 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     navText:[
-          ,
-        nextIcon
+        ,
+        nextIcon 
     ],
     responsive:{
         0:{
-            items:2,
-            nav:false
+            items:1
         },
-        500:{
-            items:3,
-            nav:false
+        600:{
+            items:2
         },
-        800:{
+        1000:{
             items:3
         }
     }
