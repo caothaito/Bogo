@@ -61,7 +61,7 @@ a {
     width: 100%;
     border: 1px solid #d0d0d0;
     border-radius: 100px;
-    padding: 0 50px;
+    padding: 0 15px;
     outline: 0;
     box-shadow: 0 0 0 0 rgba(136, 136, 136, 0);
     font-size: 18px;
@@ -261,7 +261,7 @@ input:checked+.slider:before {
     justify-content: space-between;
     left: 6px;
     right: -30px;
-    top: 30%;
+    top: 40%;
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover{
@@ -280,7 +280,7 @@ input:checked+.slider:before {
 }
 .owl-dots{
     display: none;
-} */
+}
 .box{
     background-color: #f3f4f6;
     margin-top: 14px;
@@ -335,6 +335,13 @@ input:checked+.slider:before {
 .more a{
     margin-left: 12px;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #1a0dab;
 }
 
 .tableColumn .news .content{
@@ -656,12 +663,20 @@ input:checked+.slider:before {
 /*footer*/
 .footer{
     margin-top: 78px;
-    height: 105px;
+    height: 110px;
     padding: 16px 16px;
     background-color: #FAFAFA;
     border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
 }
-
+.footer .boxFooter-1{
+    padding: 11px;
+    width: 150px;
+    height: 67px;
+    border-radius: 5px;
+    border: solid 1px #d2d2d2;
+    background-color: #ffffff;
+}
 .footer .boxFooter{
     padding: 11px;
     width: 150px;
@@ -675,6 +690,22 @@ input:checked+.slider:before {
     float: left;
     margin-right: 10px;
     text-align: center;
+}
+.footer .boxFooter-1{
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.footer .boxFooter-1 .text{
+    font-family: InterUI;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #555555;
 }
 
 .footer .boxFooter .text {
@@ -700,13 +731,13 @@ input:checked+.slider:before {
     text-align: center;
     list-style: none;
     display: inline-block;
-    padding: 27px 14px 44px;
+    padding: 27px 13px 44px;
 }
 .contect .contectList li a{
     color:#898989;
 }
 .contect .contectList .faq {
-    margin-right: 40px;
+    margin-right: 27px;
 }
 
 
