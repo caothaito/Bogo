@@ -33,7 +33,7 @@
     }
 
     .contect .contectList .faq {
-        margin-right: 22px;
+        margin-right: 0;
     }
 
 
@@ -45,12 +45,6 @@
 
     .footer .boxFooter-1{
         margin-right: 127px;
-      
-    }
-    
-    .footer .footer-1{
-
-        margin-top: 26px;
     }
     .footer .footer-1 .footerLeft{
         padding-left: 71px;
@@ -117,7 +111,7 @@
     }
     .footer .footer-1 .footerLeft {
         padding-left: 0;
-   
+        padding-top: 10px;
     }
 
     .contect .contectList li {
@@ -128,7 +122,7 @@
         width: 440px;
     }
     .footer{
-        height:213px
+        height:150px
     }
     .headerRight {
         margin-top: -38px;
@@ -248,7 +242,7 @@
 
     }
     .footer {
-        height: 269px;
+        height: 220px;
     }
     .footer .boxFooter {
          margin-left: 0;
@@ -307,7 +301,7 @@
 
 @media all and (max-width: 524px){
     .footer{
-        height: 330px;
+        height: 300px;
     }
   .footer .footer-1 {
   display: flex;
@@ -368,7 +362,12 @@
 
 }
 
-
+@media all and (max-width:495px){
+ 
+.news .content a {
+    width: 474px;
+}
+}
 
 @media all and (max-width: 484px) {
     .footer{
@@ -390,29 +389,13 @@
 
     }
     .news .content a {
-        width: 440px;
+        width: 353px;
 
 
     }
 
     .footer .boxFooter {
         margin-top: 26px;
-    }
-}
-
-
-@media all and (max-width:456px){
-    .contentLeft {
-        width: 433px;
-    }
-    .news .content a {
-        width: 367px;
-    }
-    .switch{
-        display: none;
-    }
-    .contentLeft {
-        width: 422px;
     }
 }
 
@@ -457,15 +440,6 @@
     }
 }
 
-@media all and (max-width:394px){
-    .footer{
-    height: 406px;
-    }
-    .contectList {
-        margin-left: -5px;
-    }
-}
-
 
 @media all and (max-width: 375px) {
     .header .tabsContainer {
@@ -501,14 +475,6 @@
     }
 }
 
-@media all and (max-width:350px){
-    .contect ul {
-        display: grid;
-    }
-    .footer {
-        height: 567px;
-    }
-}
 
 @media all and (max-width: 348px){
     .header .tabsContainer {
@@ -518,9 +484,6 @@
         width: 300px;
 
 
-    }
-    .footer {
-        height: 567px;
     }
 }
 
@@ -554,8 +517,5 @@
     }
     .contect .contectList li {
         padding-bottom: 0;
-    }
-    .footer{
-        height: 385px;
     }
 }

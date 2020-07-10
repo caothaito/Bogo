@@ -399,7 +399,10 @@
         margin-top: 26px;
     }
 }
-
+@media (max-width: 456px)
+.contentLeft {
+    width: 422px;
+}
 
 @media all and (max-width:456px){
     .contentLeft {
@@ -410,9 +413,6 @@
     }
     .switch{
         display: none;
-    }
-    .contentLeft {
-        width: 422px;
     }
 }
 

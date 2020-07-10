@@ -131,7 +131,25 @@ a {
 }
 
 .tabsContainer .tabList .all {
-    color: #6fae2e;
+    font-family: InterUI;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #539015;
+}
+
+.tabsContainer .tabList a{
+    font-family: InterUI;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #111111
 }
 
 .tabsContainer .tabList li.active {
@@ -663,7 +681,7 @@ input:checked+.slider:before {
 /*footer*/
 .footer{
     margin-top: 78px;
-    height: 110px;
+    height: 125px;
     padding: 16px 16px;
     background-color: #FAFAFA;
     border-bottom: 1px solid #ebebeb;
